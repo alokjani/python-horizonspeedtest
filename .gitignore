@@ -1,0 +1,16 @@
+# Python related
+*.egg*
+*.egg-info
+*.pyc
+.eggs
+*.DS_Store
+TAGS
+build
+
+# Test related
+*.log
+.venv
+
+# Editors
+*.swp
+
