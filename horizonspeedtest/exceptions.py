@@ -25,6 +25,6 @@ class PageSourceException(Exception):
     """ Page elements missing due to invalid URL or Page source """
     pass
 
-class MissingConfigurationParameter(Exception):
+class MissingConfigurationParameterException(Exception):
     """ Required parameter was missing from configuration file """
     pass

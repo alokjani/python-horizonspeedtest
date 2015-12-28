@@ -2,6 +2,7 @@ OpenStack Horizon SpeedTest
 ===========================
 Measures page load times for OpenStack's Horizon UI with Firefox.
 
+
 Description
 -----------
 Useful when making dashboard customizations or checking the effect of different
@@ -12,13 +13,13 @@ Uses Python, Selenium and the Mozilla PerformanceTiming interface (see reference
 
 Install
 -------
-Tested with Ubuntu 14.04 
 
 ```
-apt-get install libyaml-dev firefox xvfb
+apt-get install git python-dev libyaml-dev firefox xvfb
 pip install -r requirements.txt
 python setup.py install
 ```
+Tested with Ubuntu 14.04 
 
 
 References
