@@ -15,11 +15,11 @@ Install
 -------
 
 ```
-apt-get install git python-dev libyaml-dev firefox xvfb
+apt-get install git python-pip python-dev libyaml-dev firefox xvfb
 pip install -r requirements.txt
 python setup.py install
 ```
-Tested with Ubuntu 14.04 
+Tested with Ubuntu 14.04
 
 
 References

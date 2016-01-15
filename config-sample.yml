@@ -1,0 +1,20 @@
+devstack-juno:
+  username: "admin"
+  password: "password"
+  horizon_login_url: "https://192.168.23.100/horizon/"
+  horizon_switch_tenant_url: "https://192.168.23.100/horizon/auth/switch/ff6086b70c6d49332bbcc5dafe33b01f"
+  horizon_instances_url: "https://192.168.23.100/horizon/project/instances/"
+  horizon_volumes_url: "https://192.168.23.100/horizon/project/volumes/"
+  horizon_images_url: "https://192.168.23.100/horizon/project/images/"
+  horizon_logout_url: "https://192.168.23.100/horizon/auth/logout/"
+
+devstack-kilo-custom:
+   username: "admin"
+   password: "password"
+   horizon_login_url: "http://192.168.27.100/"
+   horizon_switch_tenant_url: "http://192.168.27.100/auth/switch/d2dd61212e9842feb262473e608ffba6"
+   horizon_instances_url: "http://192.168.27.100/project/instances/"
+   horizon_volumes_url: "http://192.168.27.100/project/volumes/"
+   horizon_images_url: "http://192.168.27.100/project/images/"
+   horizon_logout_url: "http://192.168.27.100/auth/logout"
+ 
